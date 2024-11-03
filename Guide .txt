@@ -1,0 +1,16 @@
+Guide : 
+ 
+
+Dans le Cmd (invite de commandes):
+ 
+1- Pour ajouter un nouveau destinataire :
+  
+python rapport_ventes.py --add-receiver email@example.com
+
+2- Pour modifier l'expéditeur :
+
+python rapport_ventes.py --set-sender nouveau@email.com mot_de_passe
+
+3- Pour générer et envoyer le rapport :
+
+ python rapport_ventes.py --generate-report
